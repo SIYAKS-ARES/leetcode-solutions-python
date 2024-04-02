@@ -26,7 +26,7 @@ solution = Solution()
 # Finally, this code creates an instance of the Solution class named solution.
 nums = [2, 7, 4, 3, 6]
 target = 9
-print(solution.twoSum(nums, target))
+print(solution.twoSum(nums, target)) # Output: [0, 1]
 '''It calls the twoSum method of the solution instance with nums and target as arguments.
 It prints the result of the method call,
 which will either be the indices of the two numbers that sum up to the target or None if no such pair exists.'''
