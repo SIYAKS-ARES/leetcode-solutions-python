@@ -3,7 +3,7 @@ In Python 2, explicitly inheriting from object creates a new-style class.
 In Python 3, all classes are new-style classes by default.'''
 class Solution(object):
     def twoSum(self, nums, target):
-        '''"self" is a reference to the instance of the class. It's used to access other methods or variables within the class.'''
+        # "self" is a reference to the instance of the class. It's used to access other methods or variables within the class.
         num_indices = {}
         for i, num in enumerate(nums):
             complement = target - num
